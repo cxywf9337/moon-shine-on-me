@@ -23,7 +23,7 @@ public class StartUpLineRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         while (true) {
-            log.info("My project moon-shine-on-me is running 3.");
+            log.info("My project moon-shine-on-me is running 4.");
             Thread.sleep(10 * 1000L);
         }
     }
