@@ -58,12 +58,12 @@ public class Result<T> implements Serializable {
         return new Result<>(ResultConstant.FAIL.getCode(), message, data);
     }
 
-    public boolean isSuccess() {
+    public boolean beSuccess() {
         return this.code == ResultConstant.SUCCESS.getCode();
     }
 
-    public boolean isFailure() {
-        return !isSuccess();
+    public boolean beFailure() {
+        return !beSuccess();
     }
 
     public int getCode() {
